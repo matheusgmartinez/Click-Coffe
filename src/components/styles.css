@@ -45,7 +45,7 @@ h2 {
 h3 {
     color: black;
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 32px;
     font-family: 'Baloo 2', sans-serif;
 }
 
@@ -56,6 +56,7 @@ h4 {
 
 a {
     text-decoration: none;
+    font-weight: 500;
     color: black;
 }
 
@@ -131,6 +132,8 @@ a:hover {
     }
 }
 
+
+
 .imagens {
     width: 100%;
 }
@@ -149,7 +152,7 @@ a:hover {
     top: 0;
     width: 100%;
     height: auto;
-    opacity: 0.4;
+    opacity: 0.6;
 }
 
 @media (min-width: 1000px) {
@@ -158,11 +161,26 @@ a:hover {
         margin-left: 25%;
         margin-bottom: 50%;
     }
+    .texto {
+        padding-top: 5%;
+    }
+    .margem-sobre {
+        margin-left: 10%;
+    }
+}
+
+@media (min-width: 770px) {
+    .margem-sobre {
+        margin-left: 10%;
+    }
 }
 
 @media (max-width: 1000px) {
     .imgMain2 {
         max-width: 100%;
+    }
+    .imagens {
+        width: 100%;
     }
 }
 
@@ -181,7 +199,7 @@ a:hover {
     bottom: 50%;
     width: 50%;
     height: auto;
-    opacity: 0.4;
+    opacity: 0.8;
 }
 
 .google-maps {

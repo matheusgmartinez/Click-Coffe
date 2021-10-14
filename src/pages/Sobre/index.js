@@ -18,39 +18,39 @@ function Sobre() {
                     "Pausa para o cafezinho"</h2>
                 <img alt="sobre" src={sobre} />
             </div>
-            <div class="container-fluid">
+            <div class="container-fluid margem-sobre">
                 <div class="row margem">
-                    <div class="col-xs-12 col-sm-6">
-                        <img alt="sobre1" class="imagens" src={sobre1} />
+                    <div class="col-md-4">
+                        <img alt="sobre1" class="imagens"  src={sobre1} />
                     </div>
-                    <div class="col">
-                        <h1>Mantenha sua equipe motivada!</h1>
+                    <div class="col-md-6 texto">
+                        <h3>Mantenha sua equipe motivada!</h3>
                         <p>Quem tem uma empresa sabe como um funcionário desmotivado
                             pode acabar prejudicando toda uma equipe e por isso é
                             importante oferecer benefícios que façam sentidos.
                             Em eventos remotos como integração de funcionários,
                             enviar um café antes do onboarding faz toda
                             diferença!</p>
-                    </div>
+                            </div>
                 </div>
                 <div class="row margem">
-                    <div class="col-xs-12 col-sm-6">
-                        <h1>Porque vida é feita de momentos!</h1>
+                    <div class="col-md-6 texto">
+                        <h3>Porque vida é feita de momentos!</h3>
                         <p>Sim, é isso mesmo! Possuimos alguns drinks de café disponíveis 
                             para fazer a alegria da sua equipe e deixar aquele encontro 
                             mais especial. É possível bloquear os agendamentos antes 
                             do horário de folga para ninguém sextar fora da hora!</p>
                     </div>
-                    <div class="col">
+                    <div class=" col-md-4">
                         <img alt="sobre2" class="imagens" src={sobre2} />
                     </div>
                 </div>
                 <div class="row margem">
-                    <div class="col-xs-12 col-sm-6">
+                    <div class="col-md-4">
                         <img alt="sobre3" class="imagens" src={sobre3} />
                     </div>
-                    <div class="col">
-                        <h1>Os melhores coworkings a sua disposição!</h1>
+                    <div class="col-md-6 texto">
+                        <h3>Os melhores coworkings a sua disposição!</h3>
                         <p>Tá com reforma em casa? A energia acabou e tem uma entrega urgente? 
                             A ClickCoffee também tem convênio com os melhores coworkings e 
                             entregamos nossos cafés nesses lugares também. Agora além de todo 
