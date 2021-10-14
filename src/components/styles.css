@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.logo {
+    width: 30%;
+    max-width: 150px;
+}
+
+.logo2 {
+    width: 30%;
+    max-width: 150px;
+}
+
+.imgMain {
+    max-width: 100%;
+}
+
+p {
+    color: black;
+    font-weight: 400;
+}
+
+h1 {
+    color: black;
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+h3 {
+    color: black;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+.veja-mais {
+    color: black;
+    font-size: 2rem;
+    background-color: #FFEAA0;
+    border: #FFEAA0;
+    font-weight: 500;
+}
+
+.veja-mais:hover {
+    background-color: #FFEAA0 !important;
+    color: black !important;
+}
+
+.enviar {
+    font-size: 2rem;
+}
+
+ .card {
+     background-color: #800220;
+     color: white;
+ }
+
+ .card-action {
+     text-align: end;
+ }
+
+.margem {
+    margin: 5%;
+}
+
+@media (max-width: 575px) {
+    * {
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 575) and (max-width: 691px) {
+    h2 {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 575px) {
+    .logo2 {
+        margin-left: 15%;
+    }
+}
+
+.imagens {
+    width: 100%;
+}
+
+.sobre {
+    position: relative;
+    overflow: hidden;
+}
+.sobre h2 {
+    position: relative;
+    z-index: 2;
+}
+.sobre img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.4;
+}
+
+@media (min-width: 1000px) {
+    .sobre img {
+        width: 50%;
+        margin-left: 25%;
+        margin-bottom: 50%  ;
+    }
+}
+
+.contato {
+    position: relative;
+    overflow: hidden;
+}
+.contato h2 {
+    position: relative;
+    z-index: 2;
+}
+.contato img {
+    position: absolute;
+    left: 25%;
+    top: 0;
+    bottom: 50%;
+    width: 50%;
+    height: auto;
+    opacity: 0.4;
+}
+
+.google-maps {
+    max-width: 30%;
+}
