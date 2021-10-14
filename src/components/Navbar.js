@@ -17,12 +17,12 @@ class Navbar extends Component {
                         </button>
                         <img alt="logo" class="logo" href="#" src={logo} />
                         <div class="collapse navbar-collapse j justify-content-end" id="navbarTogglerDemo01">
-                            <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                            <ul class="navbar-nav mr-auto mb-2 mb-lg-0" style={{ "font-size": "2rem"}}>
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#" style={{ "background-color": "white"}}><Link to={'/clube'}>Clube</Link></a>
+                                    <a class="nav-link active" aria-current="page" href="#"><Link to={'/clube'}>Clube</Link></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#"><Link to={'/catalogo'}>Catálogo</Link></a>
+                                    <a class="nav-link active" aria-current="page" href="#" ><Link to={'/catalogo'}>Catálogo</Link></a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link active" aria-current="page" href="#"><Link to={'/sobre'}>Sobre</Link></a>

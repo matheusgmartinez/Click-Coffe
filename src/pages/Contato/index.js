@@ -29,15 +29,15 @@ function Contato() {
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
                 <div class="d-grid gap-2 col-6 mx-auto">
-                    <a class="enviar btn btn-dark btn-lg" href="#">Enviar</a>
+                    <a class="btn-enviar btn btn-dark btn-lg" href="#">Enviar</a>
                 </div>
                 <p></p>
                 <h4 style={{ "text-align": "center" }}>ou</h4>
                 <p></p>
                 <div style={{ "text-align": "center" }}>
-                    <a class="veja-mais btn btn-primary btn-lg" href="https://api.whatsapp.com/send?phone=
-                    5511948490531&text=Ol%C3%A1%2C%20quero%20saber%20como%20revolucionar%20a%20pausa%20para%20o%20caf%C3%A9%20da%20minha%20empresa!" 
-                    target="_blank">Chama no WhatsApp</a>
+                    <a class="btn-whats btn btn-lg" href="https://api.whatsapp.com/send?phone=
+                    5511948490531&text=Ol%C3%A1%2C%20quero%20saber%20como%20revolucionar%20a%20pausa%20para%20o%20caf%C3%A9%20da%20minha%20empresa!" >
+                        <i class="fab fa-whatsapp" style={{ "color": "green", "padding-right": "10px"}}></i>Chama no WhatsApp</a>
                 </div>
                 <p></p>
             </div>
