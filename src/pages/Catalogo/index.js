@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import Card from '../../components/Card';
 import Footer from '../../components/Footer';
 import catalogo from '../../assets/catalogo.jpeg'
+import CheckBox from '../../components/Checkbox';
 
 function Catalogo() {
 
@@ -17,13 +18,13 @@ function Catalogo() {
                     <img alt="catalogo" class="catalogo" src={catalogo} />
                 </div>
                 <p></p>
-                <div class="card">
+                <CheckBox />
                 <Card />
+                <div class="container-fluid">
+                    <Footer />
                 </div>
-                <Footer />
             </div>
         </div>
-
     )
 }
 

@@ -9,24 +9,31 @@ class Card extends Component {
         produtos: [],
     }
 
-    async componentDidMount(){
+    async componentDidMount() {
         const response = await api.get('/catalogo/produtos');
-        this.setState({produtos: response.data.data})
+        this.setState({ produtos: response.data.data })
     }
 
-    render(){
+    render() {
 
-        const {produtos} = this.state;
+        const { produtos } = this.state;
 
-        return(
+        return (
             <div>
-                <h1>Listar Produtos</h1>
                 <ul>
-                   {produtos.map(produto => (
-                       <li>
-                           <h3>Nome: {produto.nome}</h3>
-                       </li>
-                   ))}
+                    {produtos.map(produto => (
+                        <div class="container">
+                            <div class="row margem">
+                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                                    <div class="card produtos">
+                                        <h3>Nome: {produto.nome}</h3>
+                                        <p>Descrição: {produto.desc}</p>
+                                        <img src={produto.imagem} />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    ))}
                 </ul>
             </div>
         );

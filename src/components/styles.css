@@ -96,6 +96,14 @@ a:hover {
     font-size: 32px;
 }
 
+.card {
+    max-width: fit-content;
+}
+
+.produtos img {
+    max-width: 50%;
+}
+
 .margem {
     margin: 5%;
 }
