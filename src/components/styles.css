@@ -255,3 +255,9 @@ a:hover {
     max-width: 30%;
 }
 
+.filter {
+    display: flex;
+    padding: 1rem;
+    margin: 1rem;
+    border-bottom: 0.1rem black solid;
+}
