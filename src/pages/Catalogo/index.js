@@ -18,9 +18,7 @@ function Catalogo() {
             <p></p>
             <Card />
             <p></p>
-            <div class="container-fluid">
-                <Footer />
-            </div>
+            <Footer />
         </div>
     )
 }
