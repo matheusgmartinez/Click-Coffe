@@ -1,4 +1,4 @@
-import React, { Component, useState } from 'react'
+import React, { Component } from 'react'
 import { Grid } from '@material-ui/core';
 import api from '../services/Api';
 
@@ -14,19 +14,10 @@ class Card extends Component {
         const response = await api.get('/catalogo/produtos');
         this.setState({ produtos: response.data.data })
 
+        const { produtos } = this.state;
 
-        const Filtro = () => {
+        console.log(produtos)
 
-            const [items, setItems] = useState(data);
-            
-            const filterItem = (categoriaItem) => {
-                const updateItems = data.filter((curElem) => {
-                    return curElem.nome == categoriaItem;
-                });
-
-                setItems(updateItems);
-            }
-        }
     }
 
     render() {
@@ -38,19 +29,19 @@ class Card extends Component {
             <div class="container">
                 <div class="filter">
                     <div class="col filter-result" >
-                        <button class="btn btn-warning" onClick={() => setItems()}>Todos</button>
+                        <button class="btn btn-light">Todos</button>
                     </div>
                     <div class="col filter-space">
-                        <button class="btn btn-warning" onClick={() => filterItem('')}>Espresso</button>
+                        <button class="btn btn-light">Espresso</button>
                     </div>
                     <div class="col filter-space">
-                        <button class="btn btn-warning" onClick={() => filterItem('')}>Especiais</button>
+                        <button class="btn btn-light">Especiais</button>
                     </div>
                     <div class="col filter-space">
-                        <button class="btn btn-warning" onClick={() => filterItem('')}>Chocolates</button>
+                        <button class="btn btn-light">Chocolates</button>
                     </div>
                     <div class="col filter-space">
-                        <button class="btn btn-warning" onClick={() => filterItem('')}>Alcoolicos</button>
+                        <button class="btn btn-light">Alcoolicos</button>
                     </div>
                 </div>
                 <div class="container">
