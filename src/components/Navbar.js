@@ -15,7 +15,7 @@ class Navbar extends Component {
                         aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-                        <img alt="logo" class="logo" href="#" src={logo} />
+                        <Link to={'/main'} class="logo"><img alt="logo" class="logo3"  href="#" src={logo} /></Link>
                         <div class="collapse navbar-collapse j justify-content-end" id="navbarTogglerDemo01">
                             <ul class="navbar-nav mr-auto mb-2 mb-lg-0" style={{ "font-size": "2rem"}}>
                                 <li class="nav-item">

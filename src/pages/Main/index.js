@@ -36,6 +36,12 @@ function Main() {
                 </div>
             </div>
             <p></p>
+            <div class="row" style={{ "background-color": "#FFEAA0"}}>
+                <div class="col newsletter">
+                    <h3>Se inscreva para saber as novidades</h3>
+                    <script async data-uid="8e5ee871d2" src="https://tremendous-speaker-7407.ck.page/8e5ee871d2/index.js"></script>
+                </div>
+            </div>
             <div class="margem" style={{ "background-color": "#F6F9FC", "padding": "2%" }}>
                 <div style={{ "text-align": "center", "margin-left": "13%", "margin-right": "13%", }}>
                     <h3>Podemos deixar o home office melhor!</h3>
@@ -74,7 +80,7 @@ function Main() {
                                 pontualidade e integridade do produto, por isso mesmo trabalhamos
                                 com uma equipe especial que realiza a entrega com perfeição,
                                 para você aproveitar o seu café.</p>
-                                <p></p>
+                            <p></p>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                             <img alt="interação nas reuniões" class="imagens" src={img4} style={{ "height": "55%" }} />
@@ -84,21 +90,21 @@ function Main() {
                                 faz toda a diferença. Além de trazer o sentimento de pertencimento,
                                 ainda dá aquele UP quando precisamos de um pouco mais energia
                                 para cumprir uma entrega.</p>
-                                <p></p>
+                            <p></p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="margem" style={{ "text-align": "center" }}>
                 <h1>Um mundo de possibilidades!</h1>
-                    <img alt="imgMain2" class="imgMain2" src={main2} />
-                    <div style={{ "margin-left": "20%", "margin-right": "20%", }}>
-                <p>Além dos variados cafes, a Clickcoffee reune o melhor ambiente para a sua equipe.
-                    Tudo por aqui mesmo ;)</p>
-                <p>Assine nosso clube de Beneficios e realize momentos mesmo a distância, reúna sua
-                    equipe em um ambiente de descontração e tenha acesso aos nossos coworkings
-                    especiais com baristas. </p>
-                    </div>
+                <img alt="imgMain2" class="imgMain2" src={main2} />
+                <div style={{ "margin-left": "20%", "margin-right": "20%", }}>
+                    <p>Além dos variados cafes, a Clickcoffee reune o melhor ambiente para a sua equipe.
+                        Tudo por aqui mesmo ;)</p>
+                    <p>Assine nosso clube de Beneficios e realize momentos mesmo a distância, reúna sua
+                        equipe em um ambiente de descontração e tenha acesso aos nossos coworkings
+                        especiais com baristas. </p>
+                </div>
                 <a class="veja-mais btn btn-primary btn-lg"><Link to={'/clube'}>Conheça o Coffee Pass</Link></a>
             </div>
             <Footer />

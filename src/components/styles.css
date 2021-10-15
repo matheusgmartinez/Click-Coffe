@@ -5,9 +5,8 @@
     font-family: 'Inter', sans-serif;
 }
 
-.logo {
-    width: 30%;
-    max-width: 150px;
+.logo3 {
+    max-width: 100%;
 }
 
 .logo2 {
@@ -167,6 +166,15 @@ a:hover {
     .margem-sobre {
         margin-left: 10%;
     }
+    .newsletter {
+        background-color: #FFEAA0;
+        padding: 1%;
+        margin-left: 30%;
+        margin-right: 25%;
+    }
+    .logo {
+        max-width: 10%;
+    }
 }
 
 @media (min-width: 770px) {
@@ -205,3 +213,4 @@ a:hover {
 .google-maps {
     max-width: 30%;
 }
+
