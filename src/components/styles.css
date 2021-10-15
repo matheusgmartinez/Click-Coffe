@@ -131,8 +131,6 @@ a:hover {
     }
 }
 
-
-
 .imagens {
     width: 100%;
 }
@@ -154,6 +152,23 @@ a:hover {
     opacity: 0.6;
 }
 
+.clube {
+    position: relative;
+    overflow: hidden;
+}
+.clube h2 {
+    position: relative;
+    z-index: 2;
+}
+.clube img {
+    position: absolute;
+    left: 25%;
+    top: 0;
+    width: 50%;
+    height: auto;
+    opacity: 0.6;
+}
+
 @media (min-width: 1000px) {
     .sobre img {
         width: 50%;
@@ -167,7 +182,7 @@ a:hover {
         margin-left: 10%;
     }
     .newsletter {
-        background-color: #FFEAA0;
+        background-color: #FCF7EA;
         padding: 1%;
         margin-left: 30%;
         margin-right: 25%;

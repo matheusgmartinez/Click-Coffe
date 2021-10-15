@@ -36,7 +36,7 @@ function Main() {
                 </div>
             </div>
             <p></p>
-            <div class="row" style={{ "background-color": "#FFEAA0"}}>
+            <div class="row" style={{ "background-color": "#FCF7EA"}}>
                 <div class="col newsletter">
                     <h3>Se inscreva para saber as novidades</h3>
                     <script async data-uid="8e5ee871d2" src="https://tremendous-speaker-7407.ck.page/8e5ee871d2/index.js"></script>

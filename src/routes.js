@@ -8,6 +8,7 @@ import Clube from './pages/Clube'
 import Sobre from './pages/Sobre'
 
 function Routes() {
+    
     return (
         <BrowserRouter>
             <Switch>
