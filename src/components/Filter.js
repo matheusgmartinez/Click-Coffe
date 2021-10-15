@@ -7,43 +7,19 @@ class Filter extends Component {
             <div class="container">
                 <div class="filter">
                     <div class="col filter-result">
-                        <h1 style={{"padding-top": "3%"}}>Products</h1>
+                        <h5>Todos</h5>
                     </div>
-                    <div class="col filter-sort">
-                        <h4>Order</h4>
-                        <select class="form-select" aria-label="Default select example">
-                            <option selected>Open this select menu</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                        </select>
+                    <div class="col filter-space">
+                        <h5>Espresso</h5>
                     </div>
-                    <div class="col filter-size">
-                        <h4>Order</h4>
-                        <select class="form-select" aria-label="Default select example">
-                            <option selected>Open this select menu</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                        </select>
+                    <div class="col filter-space">
+                        <h5>Especiais</h5>
                     </div>
-                    <div class="col filter-size">
-                        <h4>Order</h4>
-                        <select class="form-select" aria-label="Default select example">
-                            <option selected>Open this select menu</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                        </select>
+                    <div class="col filter-space">
+                        <h5>Chocolates</h5>
                     </div>
-                    <div class="col filter-size">
-                        <h4>Order</h4>
-                        <select class="form-select" aria-label="Default select example">
-                            <option selected>Open this select menu</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                        </select>
+                    <div class="col filter-space">
+                        <h5>Alcoolicos</h5>
                     </div>
                 </div>
             </div>

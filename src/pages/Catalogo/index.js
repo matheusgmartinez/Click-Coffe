@@ -20,6 +20,7 @@ function Catalogo() {
             <Filter />
             <p></p>
             <Card />
+            <p></p>
             <div class="container-fluid">
                 <Footer />
             </div>
