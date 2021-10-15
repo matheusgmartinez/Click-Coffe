@@ -178,6 +178,9 @@ a:hover {
     .texto {
         padding-top: 5%;
     }
+    .texto2-clube {
+        padding-top: 4%;
+    }
     .margem-sobre {
         margin-left: 10%;
     }
@@ -204,6 +207,9 @@ a:hover {
     }
     .imagens {
         width: 100%;
+    }
+    .texto-clube {
+        padding-right: 20%;
     }
 }
 
