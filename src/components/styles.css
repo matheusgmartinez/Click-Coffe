@@ -96,15 +96,6 @@ a:hover {
     font-size: 32px;
 }
 
- .card {
-     background-color: #800220;
-     color: white;
- }
-
- .card-action {
-     text-align: end;
- }
-
 .margem {
     margin: 5%;
 }
@@ -161,6 +152,23 @@ a:hover {
     z-index: 2;
 }
 .clube img {
+    position: absolute;
+    left: 25%;
+    top: 0;
+    width: 50%;
+    height: auto;
+    opacity: 0.6;
+}
+
+.catalogo {
+    position: relative;
+    overflow: hidden;
+}
+.catalogo h2 {
+    position: relative;
+    z-index: 2;
+}
+.catalogo img {
     position: absolute;
     left: 25%;
     top: 0;

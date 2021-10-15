@@ -28,7 +28,7 @@ function Clube() {
                             cafes especiais. Tudo em uma só assinatura.</p>
                         <p></p>
                         <div class="col">
-                            <script async data-uid="8e5ee871d2" src="https://tremendous-speaker-7407.ck.page/8e5ee871d2/index.js"></script>
+                            <script async data-uid="4dba98beed" src="https://tremendous-speaker-7407.ck.page/4dba98beed/index.js"></script>
                         </div>
                     </div>
                 </div>
