@@ -3,6 +3,7 @@ import Navbar from '../../components/Navbar'
 import Card from '../../components/Card';
 import Footer from '../../components/Footer';
 import catalogo from '../../assets/catalogo.jpeg'
+import FiltroFuncional from '../../components/FiltroFuncional';
 
 function Catalogo() {
 
@@ -16,6 +17,7 @@ function Catalogo() {
             </div>
             <p></p>
             <p></p>
+            <FiltroFuncional />
             <Card />
             <p></p>
             <Footer />

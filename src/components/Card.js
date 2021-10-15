@@ -21,25 +21,6 @@ class Card extends Component {
 
         return (
             <div class="container">
-
-                <div class="filter">
-                    <div class="col filter-result">
-                        <h5>Todos</h5>
-                    </div>
-                    <div class="col filter-space">
-                        <h5>Espresso</h5>
-                    </div>
-                    <div class="col filter-space">
-                        <h5>Especiais</h5>
-                    </div>
-                    <div class="col filter-space">
-                        <h5>Chocolates</h5>
-                    </div>
-                    <div class="col filter-space">
-                        <h5>Alcoolicos</h5>
-                    </div>
-                </div>
-
                 <Grid container justify="start" spacing={4}>
                     {produtos.map(produto => (
                         <Grid item key={produto.id} xs={12} sm={6} md={4} lg={3}>
