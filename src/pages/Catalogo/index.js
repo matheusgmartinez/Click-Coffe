@@ -1,10 +1,8 @@
 import React from 'react'
 import Navbar from '../../components/Navbar'
-import { Link } from 'react-router-dom';
 import Card from '../../components/Card';
 import Footer from '../../components/Footer';
 import catalogo from '../../assets/catalogo.jpeg'
-import Filter from '../../components/Filter'
 
 function Catalogo() {
 
@@ -17,7 +15,6 @@ function Catalogo() {
                 <img alt="catalogo" class="catalogo" src={catalogo} />
             </div>
             <p></p>
-            <Filter />
             <p></p>
             <Card />
             <p></p>

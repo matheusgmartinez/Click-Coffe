@@ -1,6 +1,5 @@
 import React from 'react'
 import Navbar from '../../components/Navbar'
-import { Link } from 'react-router-dom';
 import Footer from '../../components/Footer';
 import sobre from '../../assets/sobre.jpg'
 import sobre1 from '../../assets/sobre1.jpg'
