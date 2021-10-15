@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Grid } from '@material-ui/core';
 import api from '../services/Api';
 
 import './styles.css'
@@ -19,25 +20,20 @@ class Card extends Component {
         const { produtos } = this.state;
 
         return (
-            <div>
-                <ul>
+            <div class="container">
+                <Grid container justify="start" spacing={4}>
                     {produtos.map(produto => (
-                        <div class="container">
-                            <div class="row margem">
-                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
-                                    <div class="card produtos">
-                                        <h3>Nome: {produto.nome}</h3>
-                                        <p>Descrição: {produto.desc}</p>
-                                        <img src={produto.imagem} />
-                                    </div>
-                                </div>
+                        <Grid item key={produto.id} xs={12} sm={6} md={4} lg={3}>
+                            <div class="produtos">
+                                <h3>{produto.nome}</h3>
+                                <img src={produto.imagem} />
+                                <p>{produto.desc}</p>
                             </div>
-                        </div>
+                        </Grid>
                     ))}
-                </ul>
+                </Grid>
             </div>
         );
     }
 }
-
 export default Card;

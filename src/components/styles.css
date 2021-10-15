@@ -96,12 +96,16 @@ a:hover {
     font-size: 32px;
 }
 
-.card {
-    max-width: fit-content;
-}
-
 .produtos img {
     max-width: 50%;
+}
+
+.produtos {
+    width: 100%;
+    height: 100%;
+    border: solid black 1px;
+    text-align: center;
+    align-items: center;
 }
 
 .margem {
@@ -178,9 +182,9 @@ a:hover {
 }
 .catalogo img {
     position: absolute;
-    left: 25%;
+    left: 0;
     top: 0;
-    width: 50%;
+    width: 100%;
     height: auto;
     opacity: 0.6;
 }
