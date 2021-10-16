@@ -28,11 +28,11 @@ class Footer extends Component {
                         <div class="col">
                             <h4>Redes Sociais</h4>
                             <p></p>
-                            <a href="https://www.instagram.com/clickcoffeebeneficios/">Instagram</a>
+                            <a href="https://www.instagram.com/clickcoffeebeneficios/" target="_blank">Instagram</a>
                             <p></p>
-                            <a href="https://www.facebook.com/click.coffee.9">Facebook</a>
+                            <a href="https://www.facebook.com/click.coffee.9" target="_blank">Facebook</a>
                             <p></p>
-                            <a href="https://www.linkedin.com/company/clickcoffeebeneficios/">Linkedin</a>
+                            <a href="https://www.linkedin.com/company/clickcoffeebeneficios/" target="_blank">Linkedin</a>
                             <p></p>
                         </div>
                         <div class="col">
