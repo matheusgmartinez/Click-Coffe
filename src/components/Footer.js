@@ -32,7 +32,7 @@ class Footer extends Component {
                             <p></p>
                             <a href="https://www.facebook.com/click.coffee.9">Facebook</a>
                             <p></p>
-                            <a href="#!">Outra rede</a>
+                            <a href="https://www.linkedin.com/company/clickcoffeebeneficios/">Linkedin</a>
                             <p></p>
                         </div>
                         <div class="col">
